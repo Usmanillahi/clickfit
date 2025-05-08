@@ -1,0 +1,177 @@
+body {
+  background: linear-gradient(to right, #8c9bff,#3e58ff );
+  color: white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.navbar{
+  padding-top:10px ;
+}
+.main-header-band {
+  background-color: #0037ff; 
+  color: white; 
+  padding:0px; 
+  border-radius: 15px; 
+  border: 2px solid #5d68ff; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  text-align: center; 
+}
+
+.main-header-band h5, .main-header-band p {
+  margin: 0; 
+}
+
+.main-header-band h2 {
+  margin-bottom: 10px; 
+}
+
+.btn-group {
+  display: flex; 
+  flex-wrap: wrap; 
+  justify-content: center; 
+}
+
+.btn-group .btn {
+  margin: 5px; 
+  flex: 1 1 auto; 
+  min-width: 120px; 
+}
+.header {
+  padding: 20px;
+  text-align: center;
+  animation: fadeIn 2s ease-in;
+}
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+.upload-section {
+  background: linear-gradient(to right, #3ecfff, #0800b4);
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+.upload-box {
+  border: 2px dashed white;
+  padding: 30px;
+  text-align: center;
+  margin-top: 20px;
+  transition: background 0.3s ease;
+  cursor: pointer;
+}
+.upload-box.dragover {
+  background: rgba(255, 255, 255, 0.2);
+}
+.image-section {
+  display: flex; 
+  justify-content: space-between;
+}
+.image-section img {
+  flex: 1 1 33.33%; 
+  max-width: 33%; 
+  height: auto; 
+}
+.rest-interface {
+  color: black; 
+  font-size: 20px;
+  font-weight: 700;
+}
+.card {
+    border-radius: 10px; 
+    background-color: rgba(166, 255, 0, 0.448);
+}
+.links-card{
+  border-radius: 15px;
+  background: linear-gradient(to right, #3ecfff, #0800b4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+.faq-item {
+  margin-bottom: 10px;
+}
+
+.faq-heading {
+  width: 100%; 
+  text-align: left; 
+}
+.faq-section {
+  background: linear-gradient(to right, #3ecfff, #0800b4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 15px; 
+    padding: 15px; 
+    margin-top: 20px;
+}
+.register-user-section {
+  background: linear-gradient(to right, #3ecfff, #0800b4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 15px;
+  margin-top: 20px; 
+}
+.info-section{
+  background: linear-gradient(to right, #3ecfff, #0800b4);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+  border-radius: 15px;
+  padding: 15px; 
+  margin-top: 20px;
+  box-sizing: border-box;
+  width:100%;
+  max-width: 100%;
+  min-width: 300px;
+}
+
+.footer-section {
+  background-color: #0037ff;
+  padding: 0px; 
+  color: white; 
+}
+
+.footer-section a {
+  color: white; 
+  text-decoration: none; 
+}
+
+.footer-section a:hover {
+  text-decoration: underline; 
+}
+#registerForm input {
+  width: 100%; 
+  padding: 10px; 
+  margin: 10px 0; 
+  border: 2px solid #007bff;
+  border-radius: 5px; 
+  font-size: 16px;
+}
+
+
+#registerForm button {
+  background-color: #007bff; 
+  color: white; 
+  padding: 10px; 
+  border: none; 
+  border-radius: 5px; 
+  cursor: pointer; 
+  font-size: 16px; 
+  transition: background-color 0.3s; 
+  width:50%;
+  min-width: 200px;
+}
+
+
+#registerForm button:hover {
+  background-color: #0056b3; 
+}
+
+#toggleUserList {
+  width: 50%;
+  min-width: 200px;
+}
+@media (max-width: 850px) {
+  .main-header-band .container{
+    display: flex !important;
+    flex-direction: column;
+  }
+  .main-header-band .btn-group .btn{
+    width: 100%;
+
+}}
