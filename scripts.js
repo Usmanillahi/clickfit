@@ -118,6 +118,11 @@ $(document).ready(function() {
 $(document).ready(function() {
   $('.faq-heading').on('click', function() {
       var target = $(this).data('target');
-      $('.collapse').not(target).collapse('hide'); // Close other dropdowns
+      $('.collapse').not(target).collapse('hide');
   });
+});
+// hamberger for topnav implemented here
+document.getElementById('hamburger').addEventListener('click', function() {
+  const navLinks = document.getElementById('navLinks');
+  navLinks.classList.toggle('show');
 });
