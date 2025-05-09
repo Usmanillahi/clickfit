@@ -7,13 +7,22 @@ body {
   padding-top:5px ;
 }
 .main-header-band {
-  background-color: #0037ff; 
+  background: linear-gradient(to right, #3ecfff, #0800b4);
   color: white; 
   padding:0px; 
   border-radius: 15px; 
   border: 2px solid #5d68ff; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
   text-align: center; 
+}
+
+.main-header-band .btn-primary {
+
+  border-color: #000000; 
+}
+.main-header-band .btn-primary:hover {
+
+  border-color: #000000; 
 }
 
 .main-header-band h5, .main-header-band p {
@@ -123,7 +132,7 @@ body {
 }
 
 .footer-section {
-  background-color: #0037ff;
+  background: linear-gradient(to right, #3ecfff, #0800b4);
   padding: 0px; 
   color: white; 
 }
@@ -199,7 +208,7 @@ body {
       display: none;
       flex-direction: column;
       width: 100%;
-      background-color: #0037ff;
+      background: linear-gradient(to right, #3ecfff, #0800b4);
       position: absolute;
       top: 40px;
       right: -100px;
